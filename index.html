@@ -1,60 +1,196 @@
-<!doctype html>
-<html>
-  <head>
+
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Sweet Sour Source by sweetsoursource</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
+    <title>Sweet Sour Source</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sweet Sour Source Website">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/jquery.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="stylesheets/bootstrap-responsive.css" rel="stylesheet">
+    <link href="stylesheets/sss-style.css" rel="stylesheet" type="text/css">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/sweetsoursource">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Sweet Sour Source</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/sweetsoursource">sweetsoursource</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <h3>
-		<a name="ingredients" class="anchor" href="#ingredients"><span class="octicon octicon-link"></span></a>Ingredients
-	</h3>
-	<ul>
-		<li><p>2 interested developers</p></li>
-		<li><p>1 daring challenge</p></li>
-		<li><p>1 cup of extraordinary ideas</p></li>
-		<li><p>pinch     sugar</p></li>
-		<li><p>just enough spare time</p></li>
-	</ul>
-
-	<h3>
-		<a name="directions" class="anchor" href="#directions"><span class="octicon octicon-link"></span></a>Directions
-	</h3>
-	<p>Wash and mix ideas thoroughly and then combine them with rest of ingredients. Let it cook for some time and stir regularly.</p>
-	<p>Top with sugar and serve immediately. </p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <!-- Le fav and touch icons -->
+    <!-- <link rel="shortcut icon" href="http://www.sweet-sour-source.com/ico/favicon.ico">-->
     
-  </body>
-</html>
+  </head>
+
+  <body>
+
+	<div class="container-fluid">
+	    <div class="row-fluid">
+	    
+	    	<!-- left container -->
+		    <div class="span3 left">
+		    	<div id="whoweare">
+					<h1>Sweet<br>Sour<br>Source</h1>
+					<img src="images/logo.png" alt="Sweet Sour Source" height="143px" width="110">
+		    	</div>
+			</div>
+			<!-- /left container -->
+			
+			<!-- center container -->
+		    <div class="span3 center">
+				<div id="whatwedo" class="tabbable tabs-left">
+					<ul class="nav nav-tabs">
+						<li>
+							<a href="#home" data-toggle="tab">Home</a>
+						</li>
+						<li>
+							<a href="#about" data-toggle="tab">About</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								Projects
+								<b class="caret"></b>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#chronfluence" data-toggle="tab">Chronfluence Plugin</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /center container -->
+			
+			<!-- right container -->
+		    <div class="span6 right">
+				<div id="lookatit" class="tab-content">
+				
+					<!-- HOME -->
+					<div class="tab-pane" id="home">
+						<h2>Sweet Sour Source</h2>
+						
+						<blockquote>
+							<h3>Ingredients:</h3>
+							<table>
+								<tbody><tr>
+									<td class="amount">2</td>
+									<td>interested developers</td>
+								</tr>
+								<tr>
+									<td class="amount">1</td>
+									<td>daring challenge</td>
+								</tr>
+								<tr>
+									<td class="amount">1</td>
+									<td>cup of extraordinary ideas</td>
+								</tr>
+								<tr>
+									<td class="amount">pinch</td>
+									<td>sugar</td>
+								</tr>
+								<tr>
+									<td class="amount" colspan="2">just enough spare time</td>
+								</tr>
+							</tbody></table>
+							<h3>Directions:</h3>
+							Wash and mix ideas thoroughly and them combine them with rest of 
+ingredients. Let it cook for some time and stir regularly.<br>
+							Top with sugar and serve immediately.
+						</blockquote>
+						
+					</div>
+					<!-- /HOME -->
+					
+					
+					<!-- ABOUT -->
+					<div class="tab-pane" id="about">
+						<h2>About</h2>
+						<p>We're two software developers wasting their spare time playing around with interesting libraries, frameworks and other stuff.</p>
+						
+						<address>
+							<img src="images/avatar_hascode.png">
+							<strong>Micha Kops</strong><br>
+							<a href="http://www.hascode.com/" target="_blank">hascode.com</a>
+						</address>
+						
+						<address>
+							<img src="images/avatar_resah.png">
+							<strong>Theresa Henze</strong><br>
+						</address>
+						
+					</div>
+					<!-- /ABOUT -->
+					
+					
+					<!-- PROJECTS - Chronfluence Plugin -->
+					<div class="tab-pane active" id="chronfluence">
+						<h2>
+							<span class="headline">Chronfluence Plugin</span>
+							<img src="images/sweetsoursource-chronfluence-logo.png" style="">
+						</h2>
+						
+						<div class="lightbox">
+							<a href="images/screenshots/01_screenshot.png" title="Chronfluence Plugin">
+								<img src="images/screenshots/01_screenshot.png" alt="Chronfluence Plugin">
+							</a>
+							<a href="images/screenshots/02_screenshot.png" title="Chronfluence Plugin">
+								<img src="images/screenshots/02_screenshot.png" alt="Chronfluence Plugin">
+							</a>
+							<a href="images/screenshots/03_screenshot.png" title="Chronfluence Plugin">
+								<img src="images/screenshots/03_screenshot.png" alt="Chronfluence Plugin">
+							</a>
+							<a href="images/screenshots/04_screenshot.png" title="Chronfluence Plugin">
+								<img src="images/screenshots/04_screenshot.png" alt="Chronfluence Plugin">
+							</a>
+						</div>
+						
+						<h3>What it does</h3>
+						<p>The Chronfluence Plugin for Confluence allows you to visualize 
+content updates, e.g. page, space and user updates, new comments, 
+attachments in a nice timeline.</p>
+						<p>In addition it is possible to apply specific filters like 
+space-wise or by content type and to preview the results in the macro 
+browser.</p>
+						<p>Download <a href="https://marketplace.atlassian.com/plugins/com.sweetsourcource.confluence.chronfluence">Chronfluence Plugin</a> at Atlassian Marketplace</p>
+						
+						<h3>Dashboard</h3>
+						<p>After installing the plugin you will see that the <em>Dashboard</em> contains a new section on the left side. It will display recent updates of pages, users, comments etc. as a timeline.</p>
+						
+						<h3>Macro</h3>
+						<p>You can add Chronfluence as a macro on a page by choosing the 
+Timeline macro in the macro browser. Configuring space or content type 
+filter you can customize the result set that Chronfluence will display 
+in a timeline.</p>
+					</div>
+					<!-- /PROJECTS - Chronfluence Plugin -->
+					
+				</div>
+			</div>
+			<!-- /right container -->
+			
+	    </div>
+    </div>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/bootstrap.js"></script>
+    <script type="text/javascript" src="javascripts/jquery_002.js"></script>
+	<script type="text/javascript">
+	$(function() {
+		$('.lightbox').each(function() {
+			$(this).find('a').lightBox({
+				overlayBgColor: '#212424',
+				imageLoading: 'images/lightbox-ico-loading.gif',
+				imageBtnClose: 'images/lightbox-btn-close.gif',
+				imageBtnPrev: 'images/lightbox-btn-prev.png',
+				imageBtnNext: 'images/lightbox-btn-next.png',
+			});
+		});
+
+	});
+	</script>
+  
+
+</body></html>
